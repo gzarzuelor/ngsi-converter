@@ -1,0 +1,13 @@
+#IntelJ Idea
+.idea/
+
+#virtualenv
+.venv/
+
+#Python
+*.pyc
+
+#files
+*.csv
+*.cfg
+*.ini
