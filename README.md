@@ -2,19 +2,15 @@
 
 The NgsiConverter is a python software that allows to transform csv files into an entry at a ContextBroker.
 
-
-
 The first step is to define the config file, the config files have some fixed parameters and another that depends on the csv that you want to transform.
 
 Every config file must have this thre sections parser_config, cb_config and csv_config.
 
-At cb_config section it is defined the contextBroker configuration parameters like url, service_path, tenant and if a token is need or not.
+--At cb_config section it is defined the contextBroker configuration parameters like url, service_path, tenant and if a token is need or not.
 
-At parser_config section you must describe the way that your csv is written, delimiter, quotechar, and pos_delimiter.
+--At parser_config section you must describe the way that your csv is written, delimiter, quotechar, and pos_delimiter.
 
-Both sections only have fixed parameters.
-
-Finally csv_config section which have this fixed paramenters:
+--Finally csv_config section which have this fixed paramenters:
 
 entity_id: the name of the column in your csv that is going to be used as id. If this parameter is set as empty and additional numeric column is added to the csv.
 
