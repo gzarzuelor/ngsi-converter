@@ -6,7 +6,7 @@ The first step is to define the config file, the config files have some fixed pa
 
 Every config file must have this thre sections parser_config, cb_config and csv_config.
 
-1.At cb_config section it is defined the contextBroker configuration parameters like url, service_path, tenant and if a token is need or not.
+1. At cb_config section it is defined the contextBroker configuration parameters like url, service_path, tenant and if a token is need or not.
 
 2. At parser_config section you must describe the way that your csv is written, delimiter, quotechar, and pos_delimiter.
 
