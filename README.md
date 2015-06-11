@@ -25,9 +25,11 @@ The variable parameters depends on the csv columns. For each column the config f
 for example if the csv have the columns temperature and date:
 
 temperature.name: temperature
+
 temperature.type: float
 
 date.name: timestamp
+
 date.type: string
 
 # Run the program
@@ -36,11 +38,16 @@ Run the program
 
 python ngsi_converter.py -f [csv files] -cf [config files] -a [action]
 
+-f: list of csv files
+
 -cf:
+
 one config file for each csv
+
 one config file for all csv files
+
 no config file, the program try to look for a default config file with the same name.
 
 -a:
-default 'APPEND'
-'DELETE' to remove a previous updated csv
+
+default 'APPEND', use 'DELETE' to remove a previous updated csv
